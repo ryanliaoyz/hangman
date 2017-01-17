@@ -75,13 +75,12 @@ while GuessAttempts <= 6:
         if RightWrong == 1:        
             print("you are correct!")
             print(HangmanPic[GuessAttempts])
-            print(GuessStatus)
-            RightWrong = 0
         else:
             print("you are wrong!")
             GuessAttempts = GuessAttempts + 1
             print(HangmanPic[GuessAttempts])
-            RightWrong = 0
+        print(GuessStatus)
+        RightWrong = 0
     elif GuessStatus == CorrectAnswer:
         print("you win!")
         exit()
