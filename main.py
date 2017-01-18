@@ -13,7 +13,7 @@ WordPool = fp.readlines()
 #print(WordPool)
 
 word = WordPool[random.randint(0,100)]
-print(word)
+#print(word)
 #word.replace("\n","")
 Wordlength = len(word) - 1
 for Wordlength in range(0,Wordlength):
@@ -22,7 +22,7 @@ for Wordlength in range(0,Wordlength):
     GuessStatus.append('_')
     CorrectAnswer.append(word[Wordlength])
 print(GuessStatus)
-print(CorrectAnswer)
+#print(CorrectAnswer)
 
 #$word = "procrastinating"
 #$GuessStatus = ['_','_','_','_','_','_','_','_','_','_','_','_','_','_','_'] #GuessStatus[0-14]
